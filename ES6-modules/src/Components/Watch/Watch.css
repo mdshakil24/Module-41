@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.single-watch {
+    border: 1px solid rgb(45, 11, 11);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+}

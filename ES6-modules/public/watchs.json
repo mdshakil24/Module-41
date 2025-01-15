@@ -1,0 +1,28 @@
+[
+    {
+      "id": 1,
+      "name": "Rolex",
+      "price": 18000
+    },
+    {
+      "id": 2,
+      "name": "Omega",
+      "price": 5000
+    },
+    {
+      "id": 3,
+      "name": "Tag Heuer",
+      "price": 3000
+    },
+    {
+      "id": 4,
+      "name": "Patek Philippe",
+      "price": 30000
+    },
+    {
+      "id": 5,
+      "name": "Audemars Piguet",
+      "price": 25000
+    }
+  ]
+  
