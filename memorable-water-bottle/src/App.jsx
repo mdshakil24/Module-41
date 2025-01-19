@@ -1,13 +1,14 @@
+import { useState } from 'react'
+import Bottles from './components/Bottles';
 import './App.css'
-import Bottles from './Components/Bottles/Bottles';
-import Header from './Components/Header/Header';
 
 function App() {
 
+
   return (
     <>
-      <Header></Header>
-      <h2>Memorable Water Bottle Update From Desktop</h2>
+
+      <h1>Memorable Water Bottle</h1>
 
       <Bottles></Bottles>
 

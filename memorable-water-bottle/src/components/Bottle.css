@@ -1,0 +1,21 @@
+
+.single-bottle-item {
+    border: 1px solid blue;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.single-bottle-item h3 span {
+    font-weight: 400;
+}
+
+.single-bottle-item img {
+    width: 100%;
+    height: auto;
+}
+
+.single-bottle-item button {
+    background-color: black;
+    color: #fff;
+    border: none;
+}
