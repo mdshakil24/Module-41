@@ -1,0 +1,20 @@
+.bottle-cart-container  {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.single-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.bottle-cart-container img {
+    width: 100px;
+    margin: 10px;
+}
+.bottle-cart-container button {
+    background-color: #000;
+    color: #fff;
+    margin-left: 10px;
+}

@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Bottles from './components/Bottles';
 import './App.css'
 

@@ -1,4 +1,5 @@
 import './Bottle.css'
+import PropTypes from 'prop-types';
 
 const Bottle = ({bottle,addToCart}) => {
 
@@ -7,7 +8,7 @@ const Bottle = ({bottle,addToCart}) => {
     return (
 
         <div className='single-bottle-item'>
-            <img src="{img}" alt="BottleImage" />
+            <img src={img} alt="BottleImage" />
             <h3>Name: <span>{name}</span></h3>
             <h3>Price: <span>{price}</span></h3>
             <h3>Ratings: <span>{ratings} Star</span></h3>
@@ -19,3 +20,8 @@ const Bottle = ({bottle,addToCart}) => {
 }
 
 export default Bottle;
+
+Bottle.propTypes = {
+    bottle: PropTypes.object.isRequired,
+    addToCart: PropTypes.func.isRequired
+}
